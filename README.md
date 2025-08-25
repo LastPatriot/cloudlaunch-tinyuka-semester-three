@@ -15,7 +15,7 @@ For context, please see project instructions [here](https://docs.google.com/docu
 * [Project Overview](#overview)
 * [AWS Services used](#services)
 * [S3 Buckets](#buckets)
-* [Static site URL and CloudFront Distribution URL](#static)
+* [Static site and CloudFront Distribution URL](#static)
 * [IAM User & Policy](#iam)
 * [VPC Design for CloudLaunch Environment](#vpc)
 * [Internet Gateway and Route Tables](#igw)
