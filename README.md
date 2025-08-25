@@ -1,15 +1,45 @@
-CloudLaunch AWS Project Submission
+# CloudLaunch AWS Project Submission
 
-This repository contains the solution for the CloudLaunch project, which demonstrates my understanding of fundamental AWS concepts, including S3, IAM, and VPC. The project was completed as part of my cloud computing curriculum.
+This repository contains the solution for the CloudLaunch project, which demonstrates fundamental AWS concepts, including S3, IAM, and VPC. The project was completed as part of my cloud computing curriculum at AltSchool Africa.
 
-## Project Overview
+For context, please see project instructions [here](https://docs.google.com/document/d/11KnEuI-E_19XQq2_xuaJYt4A4EbaMp9_vb9ogCcE5l8/edit?usp=sharing).
+
+## See the live project first
+
+*  [S3 static website url](https://cloudlaunch-site-bucket-opeyemi.s3.us-east-1.amazonaws.com/index.html)
+*  [CloudFront URL](https://dfqpyyxrcehbf.cloudfront.net)
+
+## Project Outline
+
+* [Project Objectives](#objectives)
+* [Project Overview](#overview)
+* [AWS Services used](#services)
+
+## Project Objectives <a id="objectives"></a>
+
+*   **Deploy and secure a static website on AWS S3.**
+*   **Implement least privilege access control using custom IAM policies for S3 and VPC resources.**
+*   **Design and configure a secure, segmented VPC environment with appropriate subnets and routing.**
+*   **Utilize security groups to enforce granular network traffic policies.**
+*   **Demonstrate the integration of S3, IAM, and VPC services for a foundational cloud deployment.
+
+## Project Overview <a id="overview"></a>
 
 This project was divided into two main tasks:
 
 *   **Task 1:** Hosting a static website on Amazon S3 and creating a specific IAM user with restricted permissions for managing S3 buckets.
 *   **Task 2:** Designing a secure and logically separated Virtual Private Cloud (VPC) environment for future application deployment.
 
+# AWS Service(s) used <a id="services"></a>
+
+*   **Amazon S3 (Simple Storage Service)**: To host the static website, storing private documents, and demonstrating various access control levels.
+*   **AWS IAM (Identity and Access Management)**: To create users, defining custom policies, and managing permissions for accessing AWS resources.
+*   **Amazon VPC (Virtual Private Cloud)**: To create a logically isolated network environment in AWS.
+*   **EC2 (Elastic Compute Cloud)**: While no EC2 instances were launched, the IAM policy's `ec2:Describe*` permissions were given to indicate that there would be an interaction with underlying VPC networking components (subnets, route tables, security groups) which are managed under the EC2 service.
+*   **AWS CloudFront**: Used for distributing the static website content globally. A key feature implemented is its ability to redirect HTTP traffic to HTTPS, enhancing security.
+
 ---
+
 
 ## Task 1: S3 Static Website Hosting & IAM Access Control
 
