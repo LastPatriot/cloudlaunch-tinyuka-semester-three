@@ -50,22 +50,26 @@ This task involved creating three S3 buckets with specific configurations and an
 I created three S3 buckets to fulfill the project requirements:
 
 1.  **`cloudlaunch-site-bucket-opeyemi`**: This bucket hosts a simple static website and is configured for public read-only access.
-    *   *Configuration:* Static website hosting enabled, public read access granted via a bucket policy.
-    *   ![Screenshot Placeholder](Configuration of cloudlaunch-site-bucket for static website hosting and public access)
+    *   *Configuration:* Static website hosting was enabled and public read access was granted via a bucket policy.
+    *   <img width="1520" height="945" alt="Screenshot 2025-08-25 at 06 44 23" src="https://github.com/user-attachments/assets/065a40e7-fbb8-49bb-90db-e8ed20d311c0" />
+
 
 2.  **`cloudlaunch-private-bucket-opeyemi`**: This bucket is used for storing internal, private documents. It is not publicly accessible.
     *   *Configuration:* Block Public Access enabled, no public read permissions.
-    *   ![Screenshot Placeholder](Configuration of cloudlaunch-private-bucket with public access blocked)
+    *   <img width="1520" height="825" alt="Screenshot 2025-08-25 at 06 45 30" src="https://github.com/user-attachments/assets/70479dff-9437-4fc5-b438-3a36fd681755" />
+
 
 3.  **`cloudlaunch-visible-only-bucket-opeyemi`**: This bucket is also private, and its purpose is to demonstrate an IAM permission where a user can see the bucket exists but cannot access its contents.
     *   *Configuration:* Block Public Access enabled, IAM policy allows `ListBucket` but denies object access.
-    *   ![Screenshot Placeholder](Configuration of cloudlaunch-visible-only-bucket with restricted IAM access)
+    *   <img width="1520" height="825" alt="Screenshot 2025-08-25 at 06 46 14" src="https://github.com/user-attachments/assets/26d10e73-792b-4c7f-9884-1dedbdc65de3" />
+
 
 ### 1.2 Static Site URL
 
 The static website is publicly accessible via the following S3 static website hosting URL:
 
 `[S3 Static Site Link](https://cloudlaunch-site-bucket-opeyemi.s3.us-east-1.amazonaws.com/index.html)`
+*	<img width="1520" height="825" alt="Screenshot 2025-08-25 at 06 47 37" src="https://github.com/user-attachments/assets/804fc441-f40d-4287-948a-c1ac06cd003a" />
 
 ---
 
