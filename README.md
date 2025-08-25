@@ -28,7 +28,7 @@ For context, please see project instructions [here](https://docs.google.com/docu
 *   **Implement least privilege access control using custom IAM policies for S3 and VPC resources.**
 *   **Design and configure a secure, segmented VPC environment with appropriate subnets and routing.**
 *   **Utilize security groups to enforce granular network traffic policies.**
-*   **Demonstrate the integration of S3, IAM, and VPC services for a foundational cloud deployment.
+*   **Demonstrate the integration of S3, IAM, and VPC services for a foundational cloud deployment.**
 
 ## Project Overview <a id="overview"></a>
 
