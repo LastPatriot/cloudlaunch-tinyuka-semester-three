@@ -221,7 +221,7 @@ Two security groups were created to control network traffic within the VPC:
     *   <img width="1549" height="679" alt="Screenshot 2025-08-25 at 07 07 19" src="https://github.com/user-attachments/assets/d88fd95f-cf44-423f-b799-357db28274e3" />
 
 ## Screenshots of the rendered page in a web browser <a id="render"></a>
-*![Uploading Screenshot 2025-08-25 at 07.12.36.png…]()
+*	<img width="1798" height="1071" alt="Screenshot 2025-08-25 at 07 17 20" src="https://github.com/user-attachments/assets/31d45106-0de8-4788-8a2b-49d1dd291d58" />
 
 ---
 
